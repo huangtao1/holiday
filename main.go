@@ -15,7 +15,7 @@ func main() {
 	r := gin.Default()
 	r.GET("/", InfoShow)
 	r.GET("/holiday", JudgeDayIsHoliday)
-	r.Run()
+	r.Run(":9999")
 }
 
 //HolidayInfo 假日表
