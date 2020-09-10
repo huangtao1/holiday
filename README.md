@@ -3,6 +3,7 @@
 ## 使用方法
 ```
 go run main.go
+holiday.json需要放在同一目录下
 ```
 访问 http://localhost:8080/holiday?d=20200304 这样即可
 返回值为0说明正常工作日
